@@ -1,0 +1,386 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+/*header start*/
+
+header{
+	padding: 10px 0;
+	background-color: #121B2A;
+}
+.wrapper {
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid white;*/
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+	width: 18%;
+	/*border: 1px solid white;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	margin-top: 40px;
+	float:right;
+	width: 70%;
+	/*border: 1px solid white;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 16px;
+	display: inline-block;
+}
+.menu ul li a:hover{
+	color: #0177BD;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	min-height: 500px; 
+}
+.b_content{
+	margin-top: 240px;
+	margin-bottom:70px;
+	width: 50%;
+	/*border: 1px solid red;*/
+}
+.b_content h1{
+	margin: 0 0;
+	font-family: sans-serif;
+	font-size:38px; 
+	font-weight:400;
+	color: white;
+	text-transform: capitalize;
+}
+.b_content h2{
+	margin: 0 0;
+	font-family: sans-serif;
+	font-size: 42px; 
+	font-weight:700;
+	color: #0177BD;
+	text-transform: capitalize;
+}
+.b_content p{
+	margin: 15px 0 30px;
+	font-family: sans-serif;
+	font-size: 17px; 
+	font-weight: 400;
+	color: white;
+	line-height: 30px;
+}
+.b_content button{
+	width: 200px;
+	height: 60px;
+	font-family: sans-serif;
+	font-size: 20px; 
+	font-weight: 400;
+	color: #5B5B5B;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.b_content button:hover{
+	background-color: #0177BD;
+	color: white; 
+}
+
+/*banner end*/
+
+/*service start*/
+
+.service{
+	background-color: #121B2C;
+	padding-top: 50px;
+	padding-bottom: 10px; 
+}
+.single{
+	width: 29.1%; 
+	/*border: 1px solid white;*/
+	float: left;
+	padding: 50px 2%;
+}
+.single:last-child{
+	border-right: 0px; 
+}
+.top{
+	overflow: hidden;
+}
+.t_img{
+	width: 28%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+.t_img img{
+	width: 100%;
+}
+.t_txt{
+	margin-top: 12px;
+	width: 70%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+.t_txt h2{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 24px; 
+	font-weight: 400;
+	color: white;
+}
+.t_txt h3{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 24px; 
+	font-weight: 700;
+	color: #0078BD; 
+}
+.bottom{}
+.bottom p{
+	font-family: sans-serif;
+	font-size: 16px; 
+	font-weight: 400;
+	color: white; 
+	line-height: 25px;
+}
+
+/*service end*/
+
+/*content start*/
+.content{
+    background-color: #040811;
+}
+.one{
+	width: 20.1%;
+    float: left;
+    padding: 40px 0% 52px 5.1%;
+}
+.one h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    line-height: 25px;
+}
+.one span{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #037AC0;
+    line-height: 30px;
+}
+.one h2{
+	font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #DEDFE1;
+    line-height: 30px;
+}
+.one p{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    line-height: 19px;
+}
+.one1{
+    width: 29%;
+    float: left;
+    padding: 40px 5% 40px 8.4%;
+}
+.customer{
+    background-color: #0C1019;
+    padding: 22px 22px 12px;
+    margin-bottom: 28px;
+}
+.customer h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #DEDFE1;
+    line-height: 25px;
+    margin: 0px;
+}
+.customer span{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #037AC0;
+    line-height: 30px;
+}
+.customer p{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #B6B8B7;
+    line-height: 18px;
+}
+.foot{
+    padding: 0px 22px;
+}
+.foot p{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #B5B6BA;
+    line-height: 9px;
+    margin: 9px 0px;
+}
+.foot h5 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #B5B6BA;
+    line-height: 9px;
+    margin: 0px;
+}
+.one2{
+    width: 30%;
+    float: right;
+    padding: -38px 27.7% 10px 26.5%;
+}
+.store{
+	display: inline-block;
+	float: left;
+	padding: 50px 2%;
+}
+.phone{
+      float: left;
+}
+.phone img{
+	  width: 100%
+}
+.text_t{
+	display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.text_t h4{
+	font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    line-height: 18px;
+    margin: 0px;
+    display: inline-block;
+}
+.text_t h5{
+	font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #037AC0;
+    display: inline-block;
+    margin: 8px 0px;
+}
+.app{
+	float: left;
+}
+.app img{
+	width: 100%;
+    margin-left: 12px;
+}
+/*content end*/
+
+/*footer start*/
+.footer{
+	background-color: #121B2C;
+}
+.footer1{
+	width: 55%;
+    float: left;
+    margin-top: 20px;
+}
+.part1{
+	float: left;
+    width: 100%;
+    margin-left: 22px;
+}
+.part1 ul{
+
+}
+.part1 ul li{
+	display: inline-block;
+    float: left;
+	list-style: none;
+}
+.part1 ul li:last-child{
+	border-right: none;
+}
+.part1 ul li a{
+	font-family: sans-serif;
+	font-size: 15px;
+	text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 0px 10px;
+    font-weight: 100;
+}
+.part2{
+	width: 100%;
+    display: inline-block;
+    margin-left: 75px;
+}
+.part2 p{
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+    line-height: 30px;
+    width: 100%;
+}
+.footer2{
+	font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    line-height: 18px;
+    width: 35%;
+    float: left;
+    margin: 30px 0px;
+    margin-left: 115px;
+    overflow: hidden;
+}
+.pic1{
+	float: right;
+    width: 35%;
+    margin-top: 10px;
+    margin-right: 20px
+}
+.pic1 img{
+	width: 100%;
+}
+.pic2{
+	float: right;
+    width: 35%;
+}
+.pic2 img{
+	width: 100%;
+}
+
+/*footer end*/
